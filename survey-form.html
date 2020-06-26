@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+ <style>
+    body {
+       font-family: sans-serif;
+       padding-left: 20%;
+       padding-right: 20%;
+    }
+    label { 
+       font-size: 16px;
+       display: block;
+       padding-bottom: 10px;
+    }
+    input  {
+       display: block;
+
+    }
+    textarea  {
+      display: block;
+      width: 100%;
+       
+    }
+    form {
+       background-color: #4066e1;
+       padding: 40px 40px 40px 40px;
+    }
+    #button-area {
+       float: bottom;
+       background-color: blueviolet;
+    }
+
+ </style>  
+</head>
+
+ <body>
+   <h1 id="title">Safe Circle Membership</h1>
+   <p id="description">
+      Safe Circle is where all our secrets are revealed.
+   </p>
+   <p>Membership form</p>
+   <form id="survey-form">
+      <label id="Name-label">Name:</label>
+      <input type="text" name="name" id="name" required PLACEHOLDER="First Name"><br>
+      <label id="email-label">Email:</label>
+      <input type="email" name="name" id="email" required placeholder="example@. com"><br>
+      <label id="number-label">Number:</label>
+      <input type="number" name="number" id="mumber" min="0" max="10" required placeholder="$"><br>
+     <br>
+      <label id="Invitedby-label">Invited By:</label>
+   <select id="dropdawn" name="Member">
+      <option value="robel">Robel</option>
+      <option value="mame">Mame</option>
+      <option value="alula">Alula</option>
+      <option value="muse">Muse</option>
+      <option value="georg">Georg</option>
+      <option value="other">Other</option>
+   </select>
+   <label id="additional-information-label">Additional information</label>
+   <textarea placeholder="Additional Information"></textarea><br>
+   
+   <br>
+
+   <div id="button-area">
+      <label id="gender-label">Gender:</label>
+      <input type="radio" class="radio-inline" name="Gender" value="Male"> Male<br>
+      <input type="radio" class="radio-inline" name="Gender" value="Female"> Female<br>
+      <input type="radio" class="radio-inline" name="Gender" value="Other"> Other<br>
+   </div>
+   <br>
+   <div id="button-area">
+      <label id="Banged">Banged Girls/boys:</label>
+      <input type="checkbox" name="vehicle1" value="bike">Foreign girls/boys<br>
+      <input type="checkbox" name="vehicle2" value="bike">Local girls/boys<br>
+      <input type="checkbox" name="vehicle3" value="bike">Space girls/boys<br>
+</div>
+<br> 
+<input type="submit" id="submit">
+   </form>
+<script type="text/javascript"></script>
+
+ </body>
+</html>
+
+
